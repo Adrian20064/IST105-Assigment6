@@ -1,0 +1,14 @@
+<form method="post">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Submit</button>
+</form>
+
+{% if result %}
+<h2>Results</h2>
+<p>Original:{{result.original}}</p>
+<p>Sum: {{ result.sum }}</p>
+<p>Average: {{ result.average }}</p>
+<p>Maximum: {{ result.maximum }}</p>
+<p>Minimum: {{ result.minimum }}</p>
+<p>Product: {{ result.product }}</p>
+{% endif %}
