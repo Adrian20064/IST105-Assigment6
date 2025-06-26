@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bitwiswe' #Name of the app created
+    'bitwiwe' #Name of the app created
 ]
 
 MIDDLEWARE = [
