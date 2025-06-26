@@ -1,7 +1,5 @@
 from django import forms
 
-# Create your models here.
-
 class NumberForm(forms.Form):
     a = forms.IntegerField(label='Enter first number', min_value=0)
     b = forms.IntegerField(label='Enter second number', min_value=0)
